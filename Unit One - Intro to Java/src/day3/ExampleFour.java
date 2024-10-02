@@ -9,10 +9,22 @@ public class ExampleFour {
         // double average = (mark1 + mark2 + mark3) / (double)numMarks; // 82.33333
         // double average = (mark1 + mark2 + (double)mark3) / numMarks; // 82.33333
         double average = (double)((mark1 + mark2 + mark3) / numMarks); // useless explicit cast
-        average = (mark1 + mark2 + mark3 / numMarks); // same as above but this is implicit
+        // average = (mark1 + mark2 + mark3 / numMarks); // same as above but this is implicit
         
-    
-        System.out.println(average);
+        int x = 38;
+        int y = 13;
+        int sum = x + y;
+        double avg =  (sum / (double) 2);   
+
+
+        int w = 10;
+        int z = w / 3;
+        System.out.println(z);
+            
+        
+
+
+        System.out.println(avg);
     
     
         }
